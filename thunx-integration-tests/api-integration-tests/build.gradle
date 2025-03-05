@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-	implementation platform("org.springframework.boot:spring-boot-dependencies:3.4.2")
+	implementation platform("org.springframework.boot:spring-boot-dependencies:3.4.3")
 	implementation platform(project(":thunx-bom"))
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa'
